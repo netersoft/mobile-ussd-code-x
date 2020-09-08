@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="@string/country_str">
+            <menu>
+                <item
+                    android:id="@+id/nav_benin"
+                    android:icon="@drawable/ic_public_24px"
+                    android:title="@string/bn_str" />
+                <item
+                    android:id="@+id/nav_cameroun"
+                    android:icon="@drawable/ic_public_24px"
+                    android:title="@string/cm_str" />
+                <item
+                    android:id="@+id/nav_ci"
+                    android:icon="@drawable/ic_public_24px"
+                    android:title="@string/ci_str" />
+                <item
+                    android:id="@+id/nav_mali"
+                    android:icon="@drawable/ic_public_24px"
+                    android:title="@string/ma_str" />
+                <item
+                    android:id="@+id/nav_niger"
+                    android:icon="@drawable/ic_public_24px"
+                    android:title="@string/ni_str" />
+                <item
+                    android:id="@+id/nav_nigeria"
+                    android:icon="@drawable/ic_public_24px"
+                    android:title="@string/ng_str" />
+                <item
+                    android:id="@+id/nav_senegal"
+                    android:icon="@drawable/ic_public_24px"
+                    android:title="@string/sn_str" />
+                <item
+                    android:id="@+id/nav_togo"
+                    android:icon="@drawable/ic_public_24px"
+                    android:title="@string/tg_str" />
+            </menu>
+        </item>
+
+        <item android:title="@string/options_str">
+            <menu>
+                <item
+                    android:id="@+id/nav_search"
+                    android:icon="@drawable/ic_search_24px"
+                    android:title="@string/search_str" />
+                <item
+                    android:id="@+id/nav_favoris"
+                    android:icon="@drawable/ic_bookmark_24px"
+                    android:title="@string/favorites_str" />
+                <item
+                    android:id="@+id/nav_other"
+                    android:icon="@drawable/ic_library_books_24px"
+                    android:title="@string/others_str" />
+            </menu>
+        </item>
+
+    </group>
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings_24px"
+        android:title="@string/settings_str" />
+    <item
+        android:id="@+id/nav_evaluate"
+        android:icon="@drawable/ic_favorite_border_24px"
+        android:title="@string/evaluate_str" />
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_share_24px"
+        android:title="@string/share_str" />
+
+</menu>

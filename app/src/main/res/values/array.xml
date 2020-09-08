@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="countryArray">
+        <item>@string/bn_str</item>
+        <item>@string/cm_str</item>
+        <item>@string/ci_str</item>
+        <item>@string/ma_str</item>
+        <item>@string/ni_str</item>
+        <item>@string/ng_str</item>
+        <item>@string/sn_str</item>
+        <item>@string/tg_str</item>
+    </array>
+
+    <array name="countryValues">
+        <item>bn</item>
+        <item>cm</item>
+        <item>ci</item>
+        <item>ma</item>
+        <item>ni</item>
+        <item>ng</item>
+        <item>sn</item>
+        <item>tg</item>
+    </array>
+
+</resources>

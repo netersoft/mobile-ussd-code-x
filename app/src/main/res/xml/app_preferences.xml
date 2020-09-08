@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.preference.PreferenceCategory
+        android:title="@string/app_settings">
+
+        <ListPreference
+            android:title="@string/your_country"
+            android:summary="@string/your_country_summary"
+            android:key="currentCountry"
+            android:defaultValue="bn"
+            android:entries="@array/countryArray"
+            android:entryValues="@array/countryValues"/>
+
+    </androidx.preference.PreferenceCategory>
+
+    <androidx.preference.PreferenceCategory
+        android:title="@string/about_str">
+
+        <Preference
+            android:key="app_version"
+            android:title="@string/app_version_title"
+            android:summary="@string/version_num"/>
+
+        <Preference
+            android:key="contact_us"
+            android:title="@string/contact_us_pref_title"
+            android:summary="@string/send_us_your_codes"/>
+
+    </androidx.preference.PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>
